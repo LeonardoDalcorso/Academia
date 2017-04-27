@@ -5,10 +5,23 @@
  */
 package entidades;
 
+import java.util.Date;
+
 /**
  *
  * @author leona
  */
-public class Pagamentos {
+public class Pagamento {
+    
+    private int pag_cod;
+    
+    private Date pag_dat_inicio;
+    
+    private Date pag_dat_vencimento;
+    
+    private Date pag_dat_pagamento;
+    
+    private Aluno pag_aluno;
+    
     
 }
